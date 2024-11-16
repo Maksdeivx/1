@@ -13,7 +13,6 @@ class Program
     }
     static void Main()
     {
-        Console.WriteLine("Программа запущена");
         Console.WriteLine("Введите значение x1");
         double x1 = double.Parse(Console.ReadLine());
         Console.WriteLine("Введите значение y1");
