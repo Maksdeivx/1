@@ -13,6 +13,7 @@ class Program
     }
     static void Main()
     {
+        Console.WriteLine("Программа запущена");
         Console.WriteLine("Введите значение x1");
         double x1 = double.Parse(Console.ReadLine());
         Console.WriteLine("Введите значение y1");
@@ -33,6 +34,7 @@ class Program
         Console.WriteLine("Длина между второй и третьей точкой равна: {0:f3}",len3);
         double d = min(min(len1, len3), len2);
         Console.WriteLine("Минимальное расстояние: {0:f3}",d);
+        Console.WriteLine("Программа завершена");
     }
 }
 
